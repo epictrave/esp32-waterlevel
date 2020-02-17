@@ -1,3 +1,6 @@
+// Copyright (c) Imaination Garden. Inc. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full
+// license information.
 
 #ifndef WATER_LEVEL_COMMON_H
 #define WATER_LEVEL_COMMON_H
