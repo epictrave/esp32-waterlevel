@@ -367,6 +367,7 @@ void water_level_add_message_number(int water_level_index, char *name,
   snprintf(water_level_name, sizeof(water_level_name), "waterLevel-%d",
            water_level_index);
   json_object_set_string(root_object, "messageType", "sensor");
+  json_object_set_string(root_object, "type", "waterLevel");
   json_object_set_string(root_object, "sensorName", water_level_name);
   json_object_set_string(root_object, "name", name);
   json_object_set_number(root_object, "value", value);
@@ -387,6 +388,7 @@ void water_level_add_message_string(int water_level_index, char *name,
   snprintf(water_level_name, sizeof(water_level_name), "waterLevel-%d",
            water_level_index);
   json_object_set_string(root_object, "messageType", "sensor");
+  json_object_set_string(root_object, "type", "waterLevel");
   json_object_set_string(root_object, "sensorName", water_level_name);
   json_object_set_string(root_object, "name", name);
   json_object_set_string(root_object, "value", value);
